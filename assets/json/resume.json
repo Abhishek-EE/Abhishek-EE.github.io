@@ -1,199 +1,257 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Abhishek Ranjan Singh",
+    "label": "Machine Learning Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "abhishekranjansingh014@gmail.com",
+    "phone": "+91 9407483307",
+    "url": "https://github.com/Abhishek-EE",
+    "summary": "Passionate Engineer at the Intersection of Robotics, Machine Learning, and Computer Vision",
+    // "location": {
+    //   "address": "10050 Great Hills Trl",
+    //   "postalCode": "CA 94115",
+    //   "city": "San Francisco",
+    //   "countryCode": "US",
+    //   "region": "California"
+    // },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "arsingh3",
+        "url": "https://www.linkedin.com/in/arsingh3"
+      },
+      {
+        "network": "GitHub",
+        "username": "Abhishek-EE",
+        "url": "https://github.com/Abhishek-EE"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Apple",
+      "position": "Machine Learning Engineer",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "Present",
+      "summary": "Integrated Google Cartographer for 3D SLAM, developed object detection algorithms, and fused Lidar streams for autonomous drone projects.",
+      "highlights": [
+        "Integrated Google Cartographer to perform 3D SLAM for an autonomous drone with 2D-Lidars and IMU as sensor modalities using Nvidia Xavier.",
+        "Developed a DBSCAN-based object detection algorithm for Multi-Object Tracking on 3D Lidar stream.",
+        "Set up a 3D Lidar stream using REST API and Amazon S3.",
+        "Fused data from multiple Lidar streams to a single stream using ICP and feature extraction."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Rizse",
+      "position": "Machine Learning Engineer",
+      "url": "",
+      "startDate": "2021-07-01",
+      "endDate": "2022-07-01",
+      "summary": "Designed and integrated real-time obstacle avoidance for UAVs and refactored algorithms for improved efficiency.",
+      "highlights": [
+        "Designed and integrated real-time obstacle avoidance to path planner of a UAV utilizing octomaps.",
+        "Refactored the CPTSP algorithm to increase code readability and reduced operation time by 30%.",
+        "Tuned and trained a machine learning model based on ResNet for aviation inspection."
+      ]
+    },
+    {
+      "name": "EcoPRT Lab, North Carolina State University",
+      "position": "Graduate Research Assistant",
+      "url": "",
+      "startDate": "2019-09-01",
+      "endDate": "2021-05-01",
+      "summary": "Integrated object detection algorithms in autonomous driving environments and collaborated on research projects.",
+      "highlights": [
+        "Integrated PointPillars for object detection with ROS-based Autonomous Driving Environment.",
+        "Implemented HDL-Graph-SLAM for an L-4 autonomous vehicle utilizing Velodyne LIDAR.",
+        "Developed a project on people’s reaction to autonomous vehicles in collaboration with the psych department, designing a lighting system using Raspberry-Pi controlled LEDs and C++."
+      ]
+    },
+    {
+      "name": "Asensus Surgical",
+      "position": "Robotics Software Intern",
+      "url": "",
+      "startDate": "2020-08-01",
+      "endDate": "2020-12-01",
+      "summary": "Designed XML builders and improved the performance of robotics systems.",
+      "highlights": [
+        "Designed an XML Builder using Factory and Singleton Design Patterns.",
+        "Coded extensively in C++ and upgraded tinyxml2.0 to parse the XML document in an RTOS like TwinCat-3.1.",
+        "Stabilized the performance of the robotics arm by finely tuning the PID constants for the control system."
+      ]
+    },
+    {
+      "name": "Toppr Technologies Pvt. Ltd.",
+      "position": "Product Developer",
+      "url": "",
+      "startDate": "2018-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Reduced operational costs and managed a team for various projects.",
+      "highlights": [
+        "Reduced operational cost by 23% by removing duplicate questions utilizing a word-to-vector algorithm implemented with Python and Keras.",
+        "Managed a team of 5 individuals and mentored 15 interns on projects like 'Duplicate question detector.'"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "North Carolina State University",
+      "location": "Raleigh, NC, USA",
+      "url": "",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2019-09-01",
+      "endDate": "2021-05-01",
+      "score": "4.0/4.0",
+      "courses": [
+        "Neural Networks",
+        "Computer Vision",
+        "Pattern Recognition",
+        "Mechatronics",
+        "Digital Imaging Systems",
+        "Random Processes",
+        "Design and Analysis of Algorithms",
+        "Probabilistic and Graphical Models"
+      ]
+    },
+    {
+      "institution": "Maulana Azad National Institute of Technology (NIT-B)",
+      "location": "Bhopal, India",
+      "url": "",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "",
+      "endDate": "2018-05-01",
+      "score": "7.67/10.0",
+      "courses": []
     }
   ],
-  "awards": [
+  "projects": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "PointPillars++ for Object Detection (Thesis)",
+      "summary": "Designed a novel object detection algorithm improving state-of-the-art performance on the KITTI detection benchmark.",
+      "highlights": [
+        "Improved the state of the art for 3-D object detection on KITTI detection benchmark from 59.20 mAP to 66.83 mAP.",
+        "Improved performance for all classes in all difficulty strata."
+      ],
+      "startDate": "2020-04-01",
+      "endDate": "2021-05-01",
+      "url": ""
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Leaf Wilting Classifier",
+      "summary": "Trained a CNN model for classifying wilting levels in leaves using transfer and ensemble learning techniques.",
+      "highlights": [
+        "Ranked 3rd in a competition of 50 teams based on model performance.",
+        "Mitigated issues caused by an unbalanced dataset using XGBoost and ensemble learning."
+      ],
+      "startDate": "2020-02-01",
+      "endDate": "2020-05-01",
+      "url": ""
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Facial Recognition Models: A Comparative Analysis",
+      "summary": "Compared classical machine learning techniques with deep learning models for facial recognition tasks.",
+      "highlights": [
+        "Concluded that classical approaches can perform better on smaller datasets when transfer learning is not involved.",
+        "Based findings on ROC curve analysis."
+      ],
+      "startDate": "2020-01-01",
+      "endDate": "2020-03-01",
+      "url": ""
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Shortest Route Finder",
+      "summary": "Developed an application to find the shortest route between cities in North Carolina using C++, OpenCV, and OpenGL.",
+      "highlights": [
+        "Improved search algorithm performance through low-level optimizations.",
+        "Utilized Open3d and QT for visualization."
+      ],
+      "startDate": "2019-08-01",
+      "endDate": "2019-11-01",
+      "url": ""
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Languages",
+      "level": "",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C++",
+        "C",
+        "Python",
+        "MATLAB",
+        "MySQL",
+        "CUDA",
+        "PgSQL"
       ]
+    },
+    {
+      "name": "Libraries/Tools",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "ROS/ROS2",
+        "Tensorflow",
+        "OpenCV",
+        "Pytorch",
+        "PCL",
+        "Git",
+        "scipy",
+        "sklearn",
+        "pandas",
+        "Scikit-Learn"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "PointPillars++: an encoder for 3-D Object Detection and Classification from Point Clouds",
+      "publisher": "North Carolina State University",
+      "releaseDate": "2021-05-10",
+      "url": "https://repository.lib.ncsu.edu/items/74763121-f014-4251-b2fa-17b909b84720",
+      "summary": ""
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Hindi",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Programming",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Open Source Contribution",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "",
+      "keywords": [
+        "Deep Learning",
+        "Computer Vision",
+        "Object Detection"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Ankur Ghosh",
+      "icon": "",
+      "reference": "Abhishek is extremely talented and smart person. His ability to grasp new skills and execute them within a short time span make him an excepetional asset for any organisation. His enthusiasm towards knowledge and charismatic personality will always favour him throughout his career. Wish him all the best for future.'"
     }
   ]
 }
